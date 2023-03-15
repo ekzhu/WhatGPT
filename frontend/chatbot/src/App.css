@@ -1,0 +1,30 @@
+.chat-window {
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.card-footer {
+    padding: 0.5rem;
+}
+
+.message {
+    margin-bottom: 5px;
+}
+
+.message .card {
+    max-width: 70%;
+}
+
+.message .card-body {
+    padding: 0.5rem;
+}
+
+.message.user .card {
+    background-color: #007bff;
+}
+
+.message.user .card-body {
+    color: white;
+}

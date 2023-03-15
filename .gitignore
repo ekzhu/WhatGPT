@@ -1,0 +1,24 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.bak
+*.swp
+*.py~
+venv/
+env/
+
+# Flask
+instance/
+
+# React
+/frontend/chatbot/node_modules/
+/frontend/chatbot/.env
+/frontend/chatbot/build/
+
+# Chat session file
+chat_sessions.json
